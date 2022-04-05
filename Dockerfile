@@ -1,12 +1,27 @@
-# Tags: latest, 0.11.0-debian-10-r127, 0.11.0, 0-debian-10, 0
+# Tags: latest, 0.11.0-debian-10-r132, 0.11.0, 0-debian-10, 0
 FROM bitnami/kubernetes-event-exporter:latest
-FROM bitnami/kubernetes-event-exporter:0.11.0-debian-10-r127
+FROM bitnami/kubernetes-event-exporter:0.11.0-debian-10-r132
 FROM bitnami/kubernetes-event-exporter:0.11.0
 FROM bitnami/kubernetes-event-exporter:0-debian-10
 FROM bitnami/kubernetes-event-exporter:0
 
 # Tags: _
 FROM bitnami/kubernetes-event-exporter:_
+
+# Tags: 0.11.0-debian-10-r131
+FROM bitnami/kubernetes-event-exporter:0.11.0-debian-10-r131
+
+# Tags: 0.11.0-debian-10-r130
+FROM bitnami/kubernetes-event-exporter:0.11.0-debian-10-r130
+
+# Tags: 0.11.0-debian-10-r129
+FROM bitnami/kubernetes-event-exporter:0.11.0-debian-10-r129
+
+# Tags: 0.11.0-debian-10-r128
+FROM bitnami/kubernetes-event-exporter:0.11.0-debian-10-r128
+
+# Tags: 0.11.0-debian-10-r127
+FROM bitnami/kubernetes-event-exporter:0.11.0-debian-10-r127
 
 # Tags: 0.11.0-debian-10-r126
 FROM bitnami/kubernetes-event-exporter:0.11.0-debian-10-r126
@@ -79,18 +94,3 @@ FROM bitnami/kubernetes-event-exporter:0.11.0-debian-10-r104
 
 # Tags: 0.11.0-debian-10-r103
 FROM bitnami/kubernetes-event-exporter:0.11.0-debian-10-r103
-
-# Tags: 0.11.0-debian-10-r102
-FROM bitnami/kubernetes-event-exporter:0.11.0-debian-10-r102
-
-# Tags: 0.11.0-debian-10-r101
-FROM bitnami/kubernetes-event-exporter:0.11.0-debian-10-r101
-
-# Tags: 0.11.0-debian-10-r100
-FROM bitnami/kubernetes-event-exporter:0.11.0-debian-10-r100
-
-# Tags: 0.11.0-debian-10-r99
-FROM bitnami/kubernetes-event-exporter:0.11.0-debian-10-r99
-
-# Tags: 0.11.0-debian-10-r98
-FROM bitnami/kubernetes-event-exporter:0.11.0-debian-10-r98
